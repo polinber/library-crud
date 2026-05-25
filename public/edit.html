@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Редактировать книгу</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>📝 Редактирование книги</h1>
+
+    <form id="edit-form">
+        <input type="text" id="isbn" placeholder="ISBN" readonly>
+        <input type="text" id="name" placeholder="Название" required>
+        <input type="text" id="author" placeholder="Автор" required>
+        <input type="number" id="pages" placeholder="Страницы">
+        <input type="number" id="year" placeholder="Год">
+        <button type="submit" class="btn btn-edit">💾 Сохранить</button>
+        <a href="/" class="btn">↩️ На главную</a>
+    </form>
+
+    <div id="message"></div>
+</div>
+<script src="/edit.js"></script>
+</body>
+</html>
