@@ -19,7 +19,6 @@ body {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
-/* простой заголовок без эмодзи */
 h1 {
     font-size: 32px;
     font-weight: 600;
